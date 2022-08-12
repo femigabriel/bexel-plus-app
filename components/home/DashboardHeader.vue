@@ -10,7 +10,6 @@
       <div class="box-content">
         <!-- team a -->
         <div class="team-a flex">
-          <div class="group-1">
             <div class="user-avatar">
               <img src="../../images/avatar-square.png" alt="" class="avatar" />
               <img src="../../images/brazil-flag.svg" alt="" class="flag" />
@@ -21,7 +20,7 @@
             <h3>Femi Gabriel</h3>
             <p>timfemi@gmail.com</p>
           </div>
-        </div>
+     
         <!-- team b -->
         <div class="team-b flex">
           <div class="group-3">
@@ -73,7 +72,6 @@ export default { components: { CreditPage, TransactionTable } };
   padding-right: 20px;
   background: #fff;
   box-shadow: 0 2px 5px rgb(169 181 192 / 20%);
-  border: 2px solid transparent;
   border-radius: 6px;
   margin-bottom: 32px;
   line-height: 22.001px;
@@ -89,7 +87,7 @@ export default { components: { CreditPage, TransactionTable } };
 }
 .box-content {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 .user-avatar {
   display: flex;
@@ -100,18 +98,17 @@ export default { components: { CreditPage, TransactionTable } };
 }
 .flag {
   width: 25px;
-  margin: -15px 20px;
+  margin: -15px 15px;
 }
 .group-2 {
   display: flex;
   flex-direction: column;
-  /* margin: 0 20px; */
 }
 h3 {
   margin: 0;
   display: flex;
   align-items: center;
-  font-size: 16.38px;
+  font-size: 14.38px;
   font-weight: 500;
   line-height: 1.5;
 }
@@ -127,7 +124,7 @@ p {
 .group-2 {
   display: flex;
   flex-direction: column;
-  width: 18em;
+  width: 15em;
 }
 .group-3 {
   width: 20em;
@@ -139,7 +136,7 @@ p {
 
 button {
   background: #015eff;
-  padding: 15px 32px;
+  padding: 15px 22px;
   border: none;
   border-radius: 6px;
   box-shadow: 0 2px 5px rgb(169 181 192 / 20%);
