@@ -62,12 +62,12 @@ export default {};
 .calculator {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
+  align-items: center;
   width: 100%;
 }
 .calculator h2 {
   color: #fff;
-  /* font-size: 14px; */
+  font-size: 14px;
   text-align: left;
   width: 100%;
   padding-bottom: 6px;
@@ -82,12 +82,12 @@ label {
   justify-content: space-between;
   align-items: center;
   background-color: #fff;
-  height: 60px;
+  height: 70px;
   box-shadow: 0 2px 5px rgb(169 181 192 / 20%);
   border-radius: 6px;
   padding: 7px 0px;
   width: 100%;
-  max-width: 28em;
+  max-width: 30em;
 }
 .currency-input {
   display: flex;
