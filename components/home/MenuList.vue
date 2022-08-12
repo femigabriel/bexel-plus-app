@@ -77,7 +77,7 @@ ul li {
   text-decoration: none;
   font-size: 14px;
 }
-.las {
+li .las {
   margin-right: 10px;
   margin-bottom: 5px;
   color: #015eff;

@@ -94,7 +94,7 @@ export default { components: { CreditPage, TransactionTable } };
   display: flex;
   flex-direction: column;
 }
-.avatar {
+.avatar img{
   width: 55px;
 }
 .flag {
@@ -176,9 +176,12 @@ button {
   }
   button {
     padding: 10px 10px;
-    margin: 0px 20px;
     width: 8em;
   }
+  .team-b  {
+  display: flex;
+  flex-direction: column;
+}
   .group-3 span {
     font-size: 14px;
   }
