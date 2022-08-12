@@ -10,17 +10,18 @@
       <div class="box-content">
         <!-- team a -->
         <div class="team-a flex">
-            <div class="user-avatar">
-              <img src="../../images/avatar-square.png" alt="" class="avatar" />
-              <img src="../../images/brazil-flag.svg" alt="" class="flag" />
-            </div>
+          <div class="user-avatar">
+            <img src="../../images/avatar-square.png" alt="" class="avatar" />
+            <img src="../../images/brazil-flag.svg" alt="" class="flag" />
           </div>
-          <!--  -->
-          <div class="group-2">
-            <h3>Femi Gabriel</h3>
-            <p>timfemi@gmail.com</p>
-          </div>
-     
+           <div class="group-2">
+          <h3>Femi Gabriel</h3>
+          <p>timfemi@gmail.com</p>
+        </div>
+        </div>
+        <!--  -->
+       
+
         <!-- team b -->
         <div class="team-b flex">
           <div class="group-3">
@@ -112,10 +113,11 @@ h3 {
   font-weight: 500;
   line-height: 1.5;
 }
-p {
+.group-3 p {
   margin: 0;
   color: #879dad;
   font-size: 14px;
+  width: 8em;
 }
 .group-1 {
   display: flex;
@@ -127,34 +129,38 @@ p {
   width: 15em;
 }
 .group-3 {
-  width: 20em;
+  width: 18em;
 }
-.group-3 .las{
+.group-3 .las {
   color: #4a4b65;
   font-size: 16px;
+  margin: 5px;
 }
 
 button {
   background: #015eff;
-  padding: 15px 22px;
+  padding: 15px 20px;
   border: none;
   border-radius: 6px;
   box-shadow: 0 2px 5px rgb(169 181 192 / 20%);
   font-weight: 700;
   color: #fff;
   font-size: 14px;
-  width: 12em;
+  width: 10em;
+
 }
 
 @media (max-width: 480px) {
   .dashboard {
     padding-left: 10px;
-    padding-right: 20px;
+    /* padding-right: 10px; */
   }
   .container {
-    max-width: 385px;
+    width: 100%;
+    /* max-width: 385px; */
   }
   .box-content {
+    width: 100%;
     display: flex;
     flex-direction: column;
   }
@@ -172,6 +178,9 @@ button {
     padding: 10px 10px;
     margin: 0px 20px;
     width: 8em;
+  }
+  .group-3 span {
+    font-size: 14px;
   }
 }
 </style>
