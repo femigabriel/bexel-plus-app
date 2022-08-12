@@ -84,6 +84,9 @@ export default { components: { CreditPage, TransactionTable } };
   line-height: 1;
   margin-bottom: 32px;
 }
+.content-title h2 {
+  font-size: 16px;
+}
 .box-content {
   display: flex;
   justify-content: center;
@@ -102,7 +105,7 @@ export default { components: { CreditPage, TransactionTable } };
 .group-2 {
   display: flex;
   flex-direction: column;
-  margin: 0 20px;
+  /* margin: 0 20px; */
 }
 h3 {
   margin: 0;
@@ -124,11 +127,16 @@ p {
 .group-2 {
   display: flex;
   flex-direction: column;
-  width: 21em;
+  width: 18em;
 }
 .group-3 {
-  width: 22em;
+  width: 20em;
 }
+.group-3 .las{
+  color: #4a4b65;
+  font-size: 16px;
+}
+
 button {
   background: #015eff;
   padding: 15px 32px;

@@ -48,7 +48,7 @@ body {
 
 .dash {
   padding-top: 60px;
-  padding-left: 20px;
+  padding-left: 80px;
   width: 100%;
   max-width: 839px;
   overflow-y: auto;
