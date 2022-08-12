@@ -45,8 +45,8 @@ export default { components: { CurrencyCalculator, CurrencyProfile } };
   flex-direction: column;
   overflow-y: auto;
   padding-top: 20px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
   background: linear-gradient(168.01deg, rgb(1, 133, 255), rgb(11, 7, 214));
 }
 .header {

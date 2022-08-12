@@ -82,11 +82,12 @@ label {
   justify-content: space-between;
   align-items: center;
   background-color: #fff;
-  height: 80px;
+  height: 60px;
   box-shadow: 0 2px 5px rgb(169 181 192 / 20%);
   border-radius: 6px;
-  padding: 7px 10px;
+  padding: 7px 0px;
   width: 100%;
+  max-width: 28em;
 }
 .currency-input {
   display: flex;
@@ -125,11 +126,15 @@ input {
   align-items: center;
   justify-content: flex-end;
   margin: 0;
+  padding-left: 20px;
   border-left: 1px solid #b4bec6;
   height: 90%;
 }
-.currency-icons {
-  font-size: 24px;
+.currency-dropdown p{
+  font-size: 14px;
+}
+.currency-icons .las{
+  font-size: 18px;
 }
 .currency-dropdown img {
   margin-right: 5px;
