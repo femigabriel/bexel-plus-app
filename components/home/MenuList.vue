@@ -69,7 +69,7 @@ ul {
 ul li {
   display: flex;
   justify-content: flex-start;
-  margin: 25px 0;
+  margin: 15px 0;
   background-color: transparent;
   outline: none;
   cursor: pointer;

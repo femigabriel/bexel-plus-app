@@ -173,7 +173,7 @@ span.logic-symbols small {
 }
 span.logic-description {
   opacity: 0.7;
-  margin-left: 10px;
+  margin-left: 5px;
   font-weight: 400;
 }
 .notice {

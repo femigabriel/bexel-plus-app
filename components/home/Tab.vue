@@ -131,7 +131,7 @@ tr.collapsed {
 td {
   border-top: 1px solid #dbe5f4;
   border-bottom: 1px solid #dbe5f4;
-  padding: 20px 40px 20px 40px;
+  padding: 5px;
   box-sizing: content-box;
 }
 thead td {
@@ -153,8 +153,8 @@ tr td:last-child {
   border-radius: 0 6px 0 0;
   border-right: 1px solid #dbe5f4;
 }
-thead tr td:last-child{
-   border: none;
+thead tr td:last-child {
+  border: none;
 }
 tr td div {
   display: flex;
@@ -168,7 +168,6 @@ tr td:first-child p {
   font-weight: 500;
   margin-bottom: 0;
   color: rgba(0, 0, 0, 0.85);
-  
 }
 tr td:last-child div .badge {
   width: 65%;
@@ -200,8 +199,13 @@ tr td:last-child div button.toggle {
   border: none;
   margin: 0 15px;
 }
-.las {
-  font-size: 16px;
+.material-icons .las {
+  font-size: 14px;
+  margin: 5px;
+  color: black;
+}
+.badge .las {
+  font-size: 14px;
   margin: 5px;
 }
 tr td div span {
@@ -210,6 +214,6 @@ tr td div span {
 .badge.warning {
   background: rgba(255, 193, 7, 0.2);
   border: 1px solid #fdc008;
-  color: #daa917 !important;
+  color: #daa917;
 }
 </style>
