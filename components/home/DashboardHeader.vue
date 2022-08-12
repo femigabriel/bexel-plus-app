@@ -53,7 +53,7 @@ export default { components: { CreditPage, TransactionTable } };
 <style scoped>
 .dashboard {
   width: 100%;
-  /* max-width: 920px; */
+  max-width: 839px;
 }
 .dash-title h1 {
   font-size: 14px;
@@ -93,7 +93,7 @@ export default { components: { CreditPage, TransactionTable } };
   flex-direction: column;
 }
 .avatar {
-  width: 75px;
+  width: 55px;
 }
 .flag {
   width: 25px;
@@ -115,7 +115,7 @@ h3 {
 p {
   margin: 0;
   color: #879dad;
-  font-size: 16px;
+  font-size: 14px;
 }
 .group-1 {
   display: flex;

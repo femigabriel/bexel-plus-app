@@ -9,8 +9,7 @@
       </div>
     </div>
     <div class="right">
-      <RightSidebar
-      />
+      <RightSidebar />
     </div>
   </div>
 </template>
@@ -49,8 +48,9 @@ body {
 
 .dash {
   padding-top: 60px;
-  padding-left: 80px;
+  padding-left: 20px;
   width: 100%;
+  max-width: 839px;
   overflow-y: auto;
   height: 100vh;
 }
@@ -82,11 +82,11 @@ import Header from "../components/home/Header";
 import RightSidebar from "../components/home/RightSidebar.vue";
 import DashboardHeader from "../components/home/DashboardHeader.vue";
 export default {
-  components: { 
+  components: {
     Header,
-   RightSidebar, 
-   DashboardHeader 
-   },
+    RightSidebar,
+    DashboardHeader,
+  },
   name: "IndexPage",
   data() {
     return {

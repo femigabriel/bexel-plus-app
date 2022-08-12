@@ -40,7 +40,7 @@ export default { components: { CurrencyCalculator, CurrencyProfile } };
 .right-sidebar {
   height: 100vh;
   width: 100%;
-
+  max-width: 370px;
   display: flex;
   flex-direction: column;
   overflow-y: auto;
