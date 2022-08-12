@@ -92,13 +92,12 @@ label {
 .currency-input {
   display: flex;
   flex-direction: column;
-  
 }
 input {
   background: rgb(255, 255, 255);
   color: rgba(0, 0, 0, 0.85);
   font-weight: 400;
-  font-size: 18px;
+  font-size: 12px;
   opacity: 0.5;
   padding-top: 5px;
 }
@@ -130,10 +129,10 @@ input {
   border-left: 1px solid #b4bec6;
   height: 90%;
 }
-.currency-dropdown p{
+.currency-dropdown p {
   font-size: 14px;
 }
-.currency-icons .las{
+.currency-icons .las {
   font-size: 18px;
 }
 .currency-dropdown img {
