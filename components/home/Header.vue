@@ -12,12 +12,18 @@
         <div class="avatar">
           <img src="../../images/avatar-smallsize.svg" alt="" />
         </div>
-        <button><i class="las la-caret-down"></i></button>
-        <button><i class="las la-bars"></i></button>
+        <button class="down"><i class="las la-caret-down"></i></button>
+        <button>
+          <i v-on:click="isHidden = isHidden" class="las la-bars"></i>
+        </button>
       </div>
+      <HideBar class="aside-hide" v-show="isHidden" />
     </header>
     <!-- big size -->
     <div class="aside">
+      <div class="hide-icon">
+        <i v-on:click="isHidden = !isHidden" class="las la-bars"></i>
+      </div>
       <div class="logo">
         <img class="" src="../../images/bevel-logo.svg" alt="" />
       </div>
@@ -28,17 +34,18 @@
 
 <script>
 import MenuList from "./MenuList.vue";
+import HideBar from "./HideBar.vue";
 export default {
-  components: { MenuList },
+  components: { MenuList, HideBar },
+  data() {
+    return {
+      isHidden: false,
+    };
+  },
 };
 </script>
 
-<style scoped>.sidebar{
-  width: 100%;
-}
-header {
-  display: none;
-}
+<style scoped>
 .aside {
   width: 100%;
   max-width: 230px;
@@ -46,17 +53,35 @@ header {
   box-shadow: 0 3px 5px 0 rgb(0 0 0 / 6%);
   height: 100vh;
   background-color: #fff;
-  background-image: url('../../images/sidebar-shape.svg');
+  background-image: url("../../images/sidebar-shape.svg");
   background-repeat: no-repeat;
-  background-position:  bottom;
+  background-position: bottom;
   background-size: contain;
   box-sizing: content-box;
   z-index: 100;
 }
-
-@media (max-width: 480px) {
-  .aside {
+.sidebar {
+  width: 100%;
+}
+header {
+  display: none;
+}
+/* .aside {
     display: none;
+  } */
+
+.hide-icon {
+  display: none;
+}
+.aside {
+  display: none;
+}
+@media (max-width: 480px) {
+  .aside-hide {
+    display: flex;
+  }
+  .hide-icon {
+    display: flex;
   }
   header {
     display: flex;
@@ -76,6 +101,9 @@ header {
   }
   .logo-1 img {
     width: 130px;
+  }
+  .down .las {
+    font-size: 16px;
   }
   button {
     display: flex;

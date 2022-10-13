@@ -86,7 +86,7 @@ export default {};
   flex-direction: column;
 }
 
-.avatar {
+.user-avatar img{
   width: 75px;
 }
 .flag {

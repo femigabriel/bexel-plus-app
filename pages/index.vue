@@ -74,7 +74,7 @@ body {
     width: 100%;
   }
   .right {
-    display: none;
+    /* display: none; */
   }
 }
 </style>
